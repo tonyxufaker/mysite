@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed470aea-1a9e-4f3b-92d9-0095a9d995eb" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/rank_city.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/time_task.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pm25_city.py" afterPath="$PROJECT_DIR$/pm25_city.py" />
     </list>
@@ -17,7 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/PM25$rank_city.coverage" NAME="rank_city Coverage Results" MODIFIED="1509611088408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PM25$time_task.coverage" NAME="time_task Coverage Results" MODIFIED="1509611449622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PM25$time_task.coverage" NAME="time_task Coverage Results" MODIFIED="1509612397653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PM25$pm25_city.coverage" NAME="pm25_city Coverage Results" MODIFIED="1509589007003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="E:/document/personal/scrapy-nga/PM25" />
     <SUITE FILE_PATH="coverage/PM25$pm25_city__1_.coverage" NAME="pm25_city (1) Coverage Results" MODIFIED="1509606792209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -26,22 +23,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="pm25_city.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pm25_city.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pm25_city.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1794">
-              <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+            <state relative-caret-position="322">
+              <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
               <folding>
                 <element signature="e#90#119#0" expanded="true" />
-                <marker date="1509611449151" expanded="true" signature="208:213" ph="..." />
-                <marker date="1509611449151" expanded="true" signature="1619:1680" ph="SELECT * FRO... PM_CITY" />
-                <marker date="1509611449151" expanded="true" signature="1859:1978" ph="INSERT INTO PM_City... " />
+                <marker date="1509612397552" expanded="true" signature="208:213" ph="..." />
+                <marker date="1509612397552" expanded="true" signature="1600:1661" ph="SELECT * FRO... PM_CITY" />
+                <marker date="1509612397552" expanded="true" signature="1840:1959" ph="INSERT INTO PM_City... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="time_task.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time_task.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/time_task.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
@@ -183,6 +190,16 @@
           <expand>
             <path>
               <item name="PM25" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM25" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM25" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM25" type="462c0819:PsiDirectoryNode" />
+              <item name="PM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM25" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM25" type="462c0819:PsiDirectoryNode" />
               <item name="PM25" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -334,6 +351,14 @@
       <option name="presentableId" value="Default" />
       <updated>1509444815673</updated>
     </task>
+    <task id="LOCAL-00001" summary="1.增加定时任务，每1小时自动爬取一次   &#10;2.每次爬取数据前先爬取城市名称拼音">
+      <created>1509611870787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1509611870788</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -344,9 +369,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34539473" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34539473" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34539473" sideWeight="0.49583334" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -364,8 +389,48 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1.增加定时任务，每1小时自动爬取一次   &#10;2.每次爬取数据前先爬取城市名称拼音" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.增加定时任务，每1小时自动爬取一次   &#10;2.每次爬取数据前先爬取城市名称拼音" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -383,9 +448,9 @@
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
           <folding>
             <element signature="e#90#119#0" expanded="true" />
-            <marker date="1509611449151" expanded="true" signature="208:213" ph="..." />
-            <marker date="1509611449151" expanded="true" signature="1619:1680" ph="SELECT * FRO... PM_CITY" />
-            <marker date="1509611449151" expanded="true" signature="1859:1978" ph="INSERT INTO PM_City... " />
+            <marker date="1509612397552" expanded="true" signature="208:213" ph="..." />
+            <marker date="1509612397552" expanded="true" signature="1600:1661" ph="SELECT * FRO... PM_CITY" />
+            <marker date="1509612397552" expanded="true" signature="1840:1959" ph="INSERT INTO PM_City... " />
           </folding>
         </state>
       </provider>
@@ -412,6 +477,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="22" column="40" lean-forward="true" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#638#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -462,6 +530,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+          <folding>
+            <element signature="e#638#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -571,6 +642,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="e#638#679#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -704,16 +778,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pm25_city.py">
+    <entry file="file://$PROJECT_DIR$/time_task.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="78" column="25" lean-forward="true" selection-start-line="78" selection-start-column="25" selection-end-line="78" selection-end-column="25" />
+        <state relative-caret-position="713">
+          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
           <folding>
-            <element signature="e#90#119#0" expanded="true" />
-            <marker date="1509611449151" expanded="true" signature="208:213" ph="..." />
-            <marker date="1509611449151" expanded="true" signature="1619:1680" ph="SELECT * FRO... PM_CITY" />
-            <marker date="1509611449151" expanded="true" signature="1859:1978" ph="INSERT INTO PM_City... " />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -727,12 +806,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/time_task.py">
+    <entry file="file://$PROJECT_DIR$/pm25_city.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="25" lean-forward="true" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        <state relative-caret-position="322">
+          <caret line="56" column="22" lean-forward="true" selection-start-line="56" selection-start-column="22" selection-end-line="56" selection-end-column="22" />
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
+            <element signature="e#90#119#0" expanded="true" />
+            <marker date="1509612397552" expanded="true" signature="208:213" ph="..." />
+            <marker date="1509612397552" expanded="true" signature="1600:1661" ph="SELECT * FRO... PM_CITY" />
+            <marker date="1509612397552" expanded="true" signature="1840:1959" ph="INSERT INTO PM_City... " />
           </folding>
         </state>
       </provider>

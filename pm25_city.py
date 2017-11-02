@@ -54,7 +54,7 @@ def getPM25(cityname):
 
 
     # 定义数据库路径
-    db = r'E:\\pyproject\PM25\db.sqlite3'
+    db = r'db.sqlite3'
     # 连接数据库，如果数据库不存在，则创建一个
     conn = sqlite3.connect(db)
     cusor = conn.cursor()
