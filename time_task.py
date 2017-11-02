@@ -1,6 +1,10 @@
+# -*- coding:utf-8 -*-
+
 import os, datetime, platform
 import pm25_city
 import rank_city
+
+
 
 def run_Task():
     print('开始爬取...'+'\n'+'读取城市列表...')
