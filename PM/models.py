@@ -9,3 +9,8 @@ class City(models.Model):
     unit = models.CharField(max_length=30)
     level = models.CharField(max_length=30)
     updated_time = models.DateTimeField()
+
+
+class Employee(models.Model):
+    employee_id = models.CharField(max_length=30)
+    employee_name = models.CharField(max_length=30)

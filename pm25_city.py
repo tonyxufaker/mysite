@@ -5,7 +5,7 @@
 
 from bs4 import BeautifulSoup
 import requests
-import sqlite3
+import pymysql
 from rank_city import city_list
 
 
@@ -56,7 +56,14 @@ def getPM25(cityname):
     # 定义数据库路径
     db = r'db.sqlite3'
     # 连接数据库，如果数据库不存在，则创建一个
-    conn = sqlite3.connect(db)
+    conn = pymysql.connect(
+        host='localhost',
+        port=3306,
+        user='tony',
+        passwd='xt628510',
+        db='main',
+        charset='utf8'
+    )
     cusor = conn.cursor()
     #执行数据库操作：插入数据
     cusor.execute("SELECT * FROM PM_CITY WHERE (city='%s' AND updated_time='%s')"% (city, updated_time))
