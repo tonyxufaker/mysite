@@ -1,5 +1,7 @@
-from django.shortcuts import render
+#-*-encoding:utf-8-*-
 
+from django.shortcuts import render
+from PM import line_chart
 
 # Create your views here.
 def index(request):
@@ -8,4 +10,5 @@ def index(request):
 
 def search(request):
     city = request.GET('city')
-    return
+    src = line_chart.drawLineChart(city)
+    return render(request, 'index.html', {'src' : src} )
