@@ -4,9 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0, user-scalable=no">
     <title>全国各城市空气质量查询</title>
-    <link href="/static/css/bootstrap.css"  rel="stylesheet" type="text/css">
-    <link href="/static/css/bootstrap-grid.css" rel="stylesheet" type="text/css">
-    <link href="/static/css/bootstrap-reboot.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <h1>全国各城市空气质量查询</h1>
@@ -15,6 +12,9 @@
         <input type="text", name="city">
         <input type="submit", value="查询">
     </form>
-    <img src="{{ src }}">
+    <p>{{ img_path }}</p>
+    <div class="container">
+        <img src="{{ img_path }}">
+    </div>
 </body>
 </html>
